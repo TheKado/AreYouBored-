@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <article id="art">
+    <hi id="title">Are you Bored?</hi>
+    <br>
+    <br>
+    Are You Bored is an website for when you have nothing to do and want to do something or want to crack to lighten up your life :>. 
+
+
+  </article>
+  <br>
+
+  <div class="container">
+    <img class="image" src="img1.png">
+    <div class="overlay">
+      <div class="text">Desciption About the API's
+        <p>- BOREDapi is an api were it gets a type of activity to do and it picks out random activites on the type you
+          chosed</p>
+        <p>- JokeAPI is an where when you click ok it gives a joke about general things or programming  </p>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
+  <form>
+    <fieldset>
+      <legend> BOREDapi</legend>
+      <select name=activitys id="input">
+        <option value="0">education</option>
+        <option value="1">recreational</option>
+        <option value="2">social</option>
+        <option value="3">diy</option>
+        <option value="4">charity</option>
+        <option value="5">cooking</option>
+        <option value="6">relaxation</option>
+        <option value="7">music</option>
+        <option value="8">busywork</option>
+      </select>
+
+      <button type="button" onclick="myFunc()">Click</button>
+    </fieldset>
+  </form>
+
+
+<div class="ans">
+  <h1 id="answer"></h1>
+  <h1 id="price"></h1>
+  <h1 id="participants"></h1>
+  <h1 id="link"> </h1>
+  <a id="anchor" href="#" target="_blank"></a>
+</div>
+
+<br>
+<br>
+  
+<form>
+    <fieldset>
+      <legend> JokesAPI</legend>
+      <select name="joke?" id="joke">
+        <option value="0">random_joke</option>
+      </select>
+      <button type="button" onclick="jokeapi()">OK</button>
+    </fieldset>
+  </form>
+
+<a id="anchor" href="#" target="_blank"></a>
+<div class="theJoke">
+  <h1 id="Thejoke"></h1>
+  <h1 id="ThePunchline"></h1>
+</div>
+
+<footer class="footer">Made by Owen Nguyen @CopyRight 2023</footer>
+
+</body>
+
+</html>
